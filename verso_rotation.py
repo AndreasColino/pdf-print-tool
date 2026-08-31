@@ -24,7 +24,7 @@ WARN     = "#F59E0B"
 class App(ctk.CTk):
     def __init__(self):
         super().__init__()
-        self.title("Bon de commande — Recto / Verso")
+        self.title("Bon de commande - Recto / Verso")
         self.geometry("1200x750")
         self.minsize(1000, 680)
         self.configure(fg_color=BG_DARK)
@@ -155,10 +155,10 @@ class App(ctk.CTk):
         ctk.CTkLabel(self.right_frame, text="📄 Page sélectionnée", font=ctk.CTkFont(size=12, weight="bold"), text_color=ACCENT).grid(row=0, column=0, pady=(14, 4))
         ctk.CTkLabel(self.right_frame, text="🖨️ Aperçu impression", font=ctk.CTkFont(size=12, weight="bold"), text_color=WARN).grid(row=0, column=1, pady=(14, 4))
 
-        self.prev_source = ctk.CTkLabel(self.right_frame, text="— aucun PDF —", text_color=TEXT_SEC, fg_color=BG_INPUT, corner_radius=8)
+        self.prev_source = ctk.CTkLabel(self.right_frame, text="- aucun PDF -", text_color=TEXT_SEC, fg_color=BG_INPUT, corner_radius=8)
         self.prev_source.grid(row=1, column=0, sticky="nsew", padx=(16, 6), pady=(0, 16))
 
-        self.prev_print = ctk.CTkLabel(self.right_frame, text="— aucun PDF —", text_color=TEXT_SEC, fg_color=BG_INPUT, corner_radius=8)
+        self.prev_print = ctk.CTkLabel(self.right_frame, text="- aucun PDF -", text_color=TEXT_SEC, fg_color=BG_INPUT, corner_radius=8)
         self.prev_print.grid(row=1, column=1, sticky="nsew", padx=(6, 16), pady=(0, 16))
 
     def _on_slider_change(self, value):
