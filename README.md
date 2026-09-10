@@ -35,7 +35,7 @@ Application de bureau développée en Python (CustomTkinter) permettant de prép
 
 Aucune installation de Python n'est nécessaire.
 
-1. Rends-toi dans la section **Releases** de ce dépôt.
+1. Rends-toi dans la section [**Releases**](https://github.com/AndreasColino/pdf-print-tool/releases) de ce dépôt.
 2. Télécharge le fichier `verso_rotation.exe`.
 3. Double-clique sur `verso_rotation.exe` pour lancer l'application.
 
@@ -96,7 +96,7 @@ A Python desktop application (CustomTkinter) for preparing and printing order fo
 
 No Python installation required.
 
-1. Go to the **Releases** section of this repository.
+1. Go to the [**Releases**](https://github.com/AndreasColino/pdf-print-tool/releases) section of this repository.
 2. Download `verso_rotation.exe`.
 3. Double-click `verso_rotation.exe` to run the application.
 
